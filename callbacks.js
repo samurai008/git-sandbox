@@ -7,3 +7,7 @@ var add = function(a, b, callback) {
 add(10, 20, function(sum) {
   console.log(sum);
 });
+
+var log = function(string) {
+  console.log(string);
+};
